@@ -1,3 +1,6 @@
+![logoCTU](zdroje/logo.png)
+![logoSeverka](zdroje/logoSEVERKA.png)
+
 # Repozitář pro školení táborových vedoucí organizace T. O. Severka
 Toto dílo je večené
 
