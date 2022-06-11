@@ -15,7 +15,7 @@ jobs:
     - name: Build pedagogy
       uses: xu-cheng/latex-action@master
       with:
-        working_directory: "/pedagogika/"
+        working_directory: "pedagogika"
         glob_root_file: true
         root_file: "*.tex"
       
