@@ -15,7 +15,7 @@ jobs:
     - name: Build pedagogy
       uses: xu-cheng/latex-action@master
       with:
-        root_file: ./pedagogika/*.tex
+        root_file: /pedagogika/*.tex
       
     - name: Cleaning trash
       working-directory: ./pedagogika
