@@ -15,10 +15,11 @@ jobs:
     - name: Build pedagogy
       uses: xu-cheng/latex-action@master
       with:
-        root_file: /pedagogika/*.tex
+        working_directory: "/pedagogika/"
+        root_file: "*.tex"
       
     - name: Cleaning trash
-      working-directory: ./pedagogika
+      working-directory: "./pedagogika"
       run: make clean
       
     - name: Upload Release Asset
