@@ -14,12 +14,9 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     
-    - name: configure
-      run: ./configure
-      
-    - name: Pedagogika
+    - name: Pedagogy
       working-directory: ./pedagogika
       run: make xelatex & make booklet
-    - name: Čištění
+    - name: Cleaning trash
       working-directory: ./pedagogika
       run: make clean
