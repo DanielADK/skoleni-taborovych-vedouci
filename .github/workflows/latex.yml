@@ -20,7 +20,7 @@ jobs:
         latexmk_use_xelatex: true
         root_file: "*.tex"
     - name: ZIP pedagogy
-      run: zip -qq -r pedagogy.zip pedagogika.pdf pedagogika-book.pdf
+      run: zip -qq -r pedagogy.zip pedagogika/pedagogika.pdf pedagogika/pedagogika-book.pdf
       working-directory: "/"
       
     - name: Create release
